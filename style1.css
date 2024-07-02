@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+.header_1 {
+  height: 400px;
+  width: 100%;
+  background-color: blue;
+}
+
+/* horizontal nav */
+.nav_1 {
+  height: 10%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+/* logo of navbar */
+.logo {
+  height: 100%;
+  width: 35%;
+  /* background-color: brown; */
+  float: left;
+}
+.logo_heading {
+  margin: 2.5% 15%;
+  margin-right: 40%;
+  color: rgb(57, 1, 125);
+  text-shadow: -1px -1px white;
+}
+
+/* navbar content */
+.navabar_content {
+  height: 100%;
+  width: 65%;
+  /* background-color: blueviolet; */
+  float: left;
+}
+/* links */
+.box1 {
+  float: left;
+  width: 12%;
+  height: 60%;
+  background-color: black;
+  margin-right: 4%;
+  margin-top: 1.5%;
+  box-shadow: -2px -2px 1px 1px yellow;
+  border-radius: 15px;
+  text-align: center;
+}
+.a1 {
+  text-decoration: none;
+  font-variant: small-caps;
+  color: white;
+  font-size: small;
+}
+
+/* vertical nav */
+.nav_2 {
+  height: 90%;
+  width: 100%;
+  /* background-color: blue; */
+}
+.nav_content {
+  height: 100%;
+  width: 25%;
+  /* background-color: pink; */
+  float: left;
+}
+.box2 {
+  width: 35%;
+  height: 6%;
+  margin-top: 10%;
+  margin-left: 25%;
+  background-color: black;
+  box-shadow: -2px -2px 1px 1px yellow;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* section */
+.box6 {
+  background-color: white;
+  height: 346px;
+  width: 80%;
+  margin-left: 80px;
+  margin-top: 40px;
+  float: left;
+}
+
+/* Notice */
+.sect_1 {
+  height: 100%;
+  width: 75%;
+  background-color: white;
+  float: left;
+}
+
+/* news section */
+.news_section {
+  height: 10%;
+  width: 99%;
+  background-color: black;
+  margin: 4px;
+  margin-bottom: 0;
+}
+.news_box {
+  width: 10%;
+  height: 100%;
+  background-color: red;
+  float: left;
+  color: white;
+}
+.news_heading {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 8px;
+}
+.marq {
+  color: white;
+  /* width: 670px; */
+  margin-top: 8px;
+  font-weight: bold;
+  font-size: small;
+}
+#p1 {
+  float: left;
+  margin-right: 5px;
+  background-color: yellow;
+  color: black;
+}
+
+.box8 {
+  height: 90%;
+  width: 99%;
+}
+
+/*About lokmat*/
+.img1 {
+  margin: 10%;
+  margin-top: 12%;
+  float: left;
+  height: 50%;
+  width: 30%;
+  float: left;
+}
+.info {
+  float: left;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  margin-top: 4%;
+  float: left;
+}
+.info_para {
+  text-align: left;
+  font-size: 13px;
+  margin-top: 2%;
+}
+/* line */
+.line {
+  border: 1px solid black;
+  width: 70%;
+  margin-left: 27%;
+}
+
+/* trading */
+.trading_container {
+  float: left;
+  height: 500px;
+  width: 74%;
+  margin-left: 26%;
+}
+.title_trading {
+  text-align: center;
+  margin-top: 1%;
+}
+
+/*video*/
+.video_box1 {
+  height: 200px;
+  width: 100%;
+  /* border: 2px solid black; */
+}
+.video_1 {
+  float: left;
+  width: 25%;
+  height: 60%;
+}
+.extra_info {
+  height: 250px;
+  margin-left: 30px;
+  float: left;
+}
+
+.heading_para {
+  color: red;
+  font-size: 12px;
+}
+.para {
+  font-size: 12px;
+}
+
+/* update boxes */
+.update {
+  margin-left: 25%;
+  height: 250px;
+  width: 75%;
+  float: left;
+}
+.update1 {
+  height: 100%;
+  width: 28%;
+  text-align: center;
+  float: left;
+  background-color: grey;
+  padding: 2px;
+}
+.update2 {
+  height: 100%;
+  width: 40%;
+  float: left;
+  background-color: grey;
+  margin-right: 2%;
+  margin-left: 2%;
+  text-align: center;
+  padding: 2px;
+}
+.mq {
+  margin-top: 40%;
+  font-size: 12px;
+}
+.s1 {
+  font-weight: bold;
+}
+.t1 {
+  margin-right: 90px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.div1 {
+  font-size: 12px;
+  font-weight: bold;
+  height: 30px;
+  width: 20px;
+  padding: 5px;
+  float: left;
+  margin-right: 5px;
+}
+.div2 {
+  height: 30px;
+  width: 380px;
+  font-size: 12px;
+  padding: 5px;
+}
+.d1 {
+  border: 1px solid black;
+}
+
+/* images section */
+.images_section {
+  height: 200px;
+  width: 75%;
+  margin: 4% 25%;
+  /* border: 2px solid black; */
+  float: left;
+}
+.img2 {
+  float: left;
+  height: 100%;
+  width: 45%;
+}
+
+/* contact box */
+.contact_box {
+  border-top: 2px solid black;
+  height: 30px;
+  width: 75%;
+  margin: 2%;
+  margin-left: 25%;
+  text-align: center;
+  padding-top: 0.5%;
+  font-weight: bold;
+  float: left;
+}
+/* contact_details */
+
+.sec_3 {
+  margin-left: 25%;
+  height: 200px;
+  margin-top: 2%;
+  width: 75%;
+}
+.sec_4 {
+  float: left;
+  width: 50%;
+  height: 200px;
+}
+.sec_5 {
+  color: red;
+  float: left;
+  padding-left: 30px;
+  margin: 5% 5%;
+  height: 100px;
+  width: 35%;
+}
+.text {
+  font-size: 12px;
+}
+.p_mail {
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+/* footer */
+.footer {
+  height: 50px;
+  background-color: black;
+  width: 74%;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  padding: 1%;
+  margin: 2% 25%;
+  float: left;
+}
+.s1 {
+  margin-left: 35%;
+  margin-right: 2%;
+}

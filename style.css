@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+.header_1 {
+  height: 100vh;
+  width: 100%;
+  background-color: orange;
+}
+
+/* horizontal nav */
+.nav_1 {
+  height: 10%;
+  width: 100%;
+  /* background-color: aqua; */
+}
+
+/* logo of navbar */
+.logo {
+  height: 100%;
+  width: 35%;
+  /* background-color: brown; */
+  float: left;
+}
+.logo_heading {
+  margin: 2.5% 6%;
+  margin-right: 40%;
+  color: blueviolet;
+}
+
+/* navbar content */
+.navabar_content {
+  height: 100%;
+  width: 65%;
+  /* background-color: blueviolet; */
+  float: left;
+}
+/* links */
+.box1 {
+  float: left;
+  width: 12%;
+  height: 60%;
+  background-color: black;
+  margin-right: 4%;
+  margin-top: 1.5%;
+  box-shadow: -2px -2px 1px 1px aqua;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.a1 {
+  text-decoration: none;
+  font-variant: small-caps;
+  color: white;
+  font-size: small;
+}
+
+/* vertical nav */
+.nav_2 {
+  height: 90%;
+  width: 100%;
+  /* background-color: blue; */
+}
+.nav_content {
+  height: 100%;
+  width: 25%;
+  /* background-color: pink; */
+  float: left;
+}
+.box2 {
+  width: 35%;
+  height: 6%;
+  margin-top: 10%;
+  margin-left: 25%;
+  background-color: black;
+  box-shadow: -2px -2px 1px 1px yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+/* section */
+.sect_1 {
+  height: 100%;
+  width: 75%;
+  background-color: white;
+  float: left;
+}
+
+/* notice section */
+.notice_sect {
+  height: 10%;
+  width: 99%;
+  background-color: black;
+  margin: 4px;
+  margin-bottom: 0;
+}
+.notice_box {
+  width: 10%;
+  height: 100%;
+  background-color: red;
+  float: left;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notice_heading {
+  font-size: 15px;
+  font-weight: bold;
+}
+.marq {
+  color: white;
+  width: 100%;
+  height:100%;
+  font-weight: bold;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:2%;
+}
+#p1 {
+  float: left;
+  margin-right: 5px;
+  background-color: yellow;
+  color: black;
+}
+
+/* paper link & form */
+.paper_form {
+  height: 89%;
+  width: 99%;
+  /* background-color: rgb(193, 179, 179); */
+  margin-left: 4px;
+}
+
+/* paper link */
+.paper_link {
+  height: 100%;
+  width: 65%;
+  /* background-color: white; */
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+  float: left;
+  margin-right: 1%;
+}
+.img {
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.paper {
+  float: left;
+  width: 33%;
+  height: 50%;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+}
+
+/* form */
+.join_form {
+  height: 100%;
+  width: 34%;
+  background-color: grey;
+  border: 2px solid gray;
+  float: left;
+}
+
+.j_form {
+  margin-left: 50px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.j_title {
+  color: rgb(228, 205, 23);
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 25px;
+}
+input {
+  padding: 5px;
+  height: 15px;
+}
+.btn {
+  text-align: center;
+  height: 35px;
+  width: 80px;
+  margin: 15px 40px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+
+/* contact box */
+.contact_box {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  height: 30px;
+  width: 75%;
+  margin: 1% 25%;
+  text-align: center;
+  padding-top: 0.5%;
+  font-weight: bold;
+}
+
+/* contact_details */
+
+.sec_3 {
+  margin-left: 25%;
+  height: 200px;
+  margin-top: 2%;
+  width: 75%;
+}
+.sec_4 {
+  float: left;
+  width: 50%;
+  height: 200px;
+}
+.sec_5 {
+  color: red;
+  float: left;
+  padding-left: 30px;
+  margin: 5% 5%;
+  height: 100px;
+  width: 35%;
+}
+.text {
+  font-size: 12px;
+}
+.p_mail {
+  font-size: 13px;
+  margin-left: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+/* footer */
+.footer {
+  height: 40px;
+  background-color: black;
+  width: 74%;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  margin: 2% 25%;
+}
